@@ -20,7 +20,7 @@ public class KsnetRefundInfoCompare implements Comparator<KsnetRefundInfo> {
         } else if ( o2StatusNum == 2) {
            o2StatusNum=1;
         }
-
+        // 양수일때 내림차순, 음수일때 오름차순
         if (o1StatusNum < o2StatusNum) {
             ret = 1;
         }
