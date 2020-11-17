@@ -8,8 +8,6 @@ public class KsnetRefundInfoCompare implements Comparator<KsnetRefundInfo> {
         int o2StatusNum = o2.getStatusNum();
         String o1Date = o1.getDealDate().concat(o1.getDealDate());
         String o2Date = o2.getDealDate().concat(o2.getDealDate());
-
-
        if (o1StatusNum==1) {
            o1StatusNum=2;
        } else if (o1StatusNum == 2) {
